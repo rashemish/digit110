@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?xml-model href="relaxngex2.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <song>
+        <intro mem1="Jennie" mem2="Lisa">
+            <Jennie>Yeah, yeah, yeah</Jennie>
+            <Lisa>BLACKPINK IN YOUR AREA!</Lisa>
+            <Jennie>Yeah, yeah, yeah</Jennie>
+        </intro>
+
+        <verse mem1="Jennie" mem2="Lisa">
+            <Jennie>Cheonsa gateun "hi" kkeuten angma gateun "bye" Maebeon michildeuthan high dwien
+                baeteoya haneun price Igeon dabi eomneun test, maebeon sokdeorado yes Ttakan
+                gamjeongui noye, eoreo jugeul saranghae</Jennie>
+            <Lisa>Here I come kickin' the door, uh Gajang dokan geollo jwo, uh Ppeonhadi ppeonhan
+                geu love Deo naenwabwa give me some more Araseo maedallyeo byeorang kkeute
+                Hanmadimyeon tto like hebeolle hae Geu ttatteuthan tteollimi saeppalgan seollemi
+                Machi heaven gatgetjiman, you might not get in it</Lisa>
+        </verse>
+
+        <prechorus mem3="Jisoo" mem4="Rose">
+            <Jisoo>Look at me, look at you Nuga deo apeulkka you smart (You smart) Nuga you are Du
+                nune pinunmul heureuge doendamyeon so sorry (So sorry) Nuga you are</Jisoo>
+            <Rose>Na eotteokae nayakan nal gyeondil su eopseo Aesseo du nuneul garin chae Sarangui
+                sumtongeul kkeuneoyagesseo</Rose>
+        </prechorus>
+
+        <chorus mem1="Jennie" mem2="Lisa" mem3="Jisoo" mem4="Rose">
+            <all>Let's kill this love!</all>
+            <Lisa>Yeah-yeah, yeah-yeah, yeah-yeah </Lisa>
+            <Jennie>Prum, pum, pum, pum, pum, pum, pum</Jennie>
+            <all>Let's kill this love! </all>
+            <Jennie>Prum, pum, pum, pum, pum, pum, pum</Jennie>
+        </chorus>
+
+        <verse mem1="Jennie" mem2="Lisa">
+            <Jennie>Feelin' like a sinner It's so fire with him I go boo-hoo</Jennie>
+            <Lisa>He said "You look crazy" Thank you, baby I owe it all to you</Lisa>
+            <Jennie>Got me all messed up His love is my favorite</Jennie>
+            <Lisa>But you plus me Sadly can be dangerous</Lisa>
+        </verse>
+
+        <prechorus mem3="Jisoo" mem4="Rose">
+            <Jisoo>Lucky me, lucky you Gyeolgugen geojitmal we lie (We lie) So what? So what?
+                Manyage naega neol jiuge Doendamyeon so sorry (So sorry) I'm not sorry</Jisoo>
+            <Rose>Na eotteokae nayakan nal gyeondil su eopseo Aesseo nunmureul gamchun chae, eh
+                Sarangui sumtongeul kkeuneoyagesseo</Rose>
+        </prechorus>
+
+        <chorus mem1="Jennie" mem2="Lisa" mem3="Jisoo" mem4="Rose">
+            <all>Let's kill this love!</all>
+            <Lisa>Yeah-yeah, yeah-yeah, yeah-yeah </Lisa>
+            <Jennie>Prum, pum, pum, pum, pum, pum, pum</Jennie>
+            <all>Let's kill this love! </all>
+            <Jennie>Prum, pum, pum, pum, pum, pum, pum</Jennie>
+        </chorus>
+
+        <bridge mem4="Rose">
+            <Rose>We all commit to love That makes you cry, oh-oh We're all making love That kills
+                you inside, yeah</Rose>
+        </bridge>
+
+        <!--for parts of the song where all 4 members are singing, I've have indicated this with the "all" tag or added each member as a attribute within the tag wrapping the entire chorus/verse-->
+        <outro mem1="Jennie" mem2="Lisa" mem3="Jisoo" mem4="Rose">We must kill this love (Yeah,
+            yeah) <all>Yeah, it's sad but true Gotta kill this love (Yeah, yeah) Before it kills you
+                too Kill this love (Yeah, yeah) Yeah, it's sad but true Gotta kill this love (Yeah,
+                yeah) Gotta kill, let's kill this love!</all></outro>
+    </song>
+</root>
